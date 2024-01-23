@@ -65,7 +65,7 @@ pub struct CompileArgs {
     pub dest_dir: String,
 
     /// Reset path to root in html files.
-    #[clap(long, default_value = "/")]
+    #[clap(long, default_value = "./")]
     pub path_to_root: String,
 
     /// Add additional directories to search for fonts
